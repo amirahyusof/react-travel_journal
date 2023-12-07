@@ -6,9 +6,28 @@ body {
   margin: 0;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 32, 122);
+  padding: 20px;
+  gap: 15px;
+}
+
+.travel-logo {
+  max-width: 40px;
+}
+
+.travel-logo-title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
 .travel-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 250px;
+  max-height: 300px;
   border-radius: 10px;
 }
 
@@ -22,12 +41,43 @@ section {
 }
 
 .card-container {
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 50px;
+  justify-content: center;
+  gap: 30px;
+  
 }
 
 .card-column {
   padding: 10px;
+}
+
+.travel-icon {
+  color: #c81e1e;
+}
+
+.travel-country {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 18px;
+  color: red;
+  font-weight: medium;
+}
+
+.travel-maps {
+  font-size: 15px;
+  text-decoration: none;
+  color:blueviolet;
+}
+
+.card-description {
+  padding: 30px;
+  width: 350px;
+}
+
+.travel-description{
+  font-family: 'Lato', sans-serif;
+}
+
+.travel-inform {
+  text-align: justify;
 }

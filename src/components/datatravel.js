@@ -1,7 +1,7 @@
 export default [
     {
         title: "Stonehenge",
-        location: "United Kingdom",
+        location: "UNITED KINGDOM",
         googleMaps: "https://maps.app.goo.gl/HspfPM12a8sEMMbk6",
         startDate: "12 Jan 2023",
         endDate: "24 Jan 2023",
@@ -10,7 +10,7 @@ export default [
     }, 
     {
         title: "Mount Fuji",
-        location: "Japan",
+        location: "JAPAN",
         googleMaps: "https://maps.app.goo.gl/ewUxrJEa2RwVaP5A9",
         startDate: "08 March 2023",
         endDate: "12 March 2023",
@@ -19,7 +19,7 @@ export default [
     },
     {
         title: "Cappadocia",
-        location: "Turkiye",
+        location: "TURKIYE",
         googleMaps: "https://maps.app.goo.gl/2coqT32xrvQGoK6K6",
         startDate: "14 Dec 2023",
         endDate: "20 Dec 2023",
