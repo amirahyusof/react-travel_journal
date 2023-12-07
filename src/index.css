@@ -61,12 +61,18 @@ section {
   font-size: 18px;
   color: red;
   font-weight: medium;
+  text-transform: uppercase;
 }
 
 .travel-maps {
   font-size: 15px;
   text-decoration: none;
   color:blueviolet;
+}
+
+.travel-maps:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 .card-description {
