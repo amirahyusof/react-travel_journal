@@ -3,9 +3,9 @@ import React from "react";
 
 function App(){
   return(
-    <div className="card-row">
+    <div className="card-container">
       <img src="./images/Japan.jpg" alt="Japan" className="travel-img" />
-      <div className="card-column">
+      <div className="card-description">
       <p>
         <span className="travel-country">Japan </span> 
         <a href="https://maps.app.goo.gl/ewUxrJEa2RwVaP5A9" className="travel-maps">View on Google Maps</a>
@@ -17,7 +17,6 @@ function App(){
         Visitors often hike the mountain or enjoy its stunning views from nearby attractions.
         </p>
       </div>
-      
     </div>
     
   )

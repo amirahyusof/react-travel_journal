@@ -17,14 +17,15 @@ section {
 }
 
 .card-list {
-  display: flex;
+  padding: 20px;
+ 
 }
 
-.card-row {
-  display: flex;
-  flex-direction: column;
-  width: 350px;
-  overflow-x: hidden;
+.card-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
 }
 
 .card-column {
