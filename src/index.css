@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 32, 122);
+  padding: 20px;
+  gap: 15px;
+}
+
+.travel-logo {
+  max-width: 40px;
+}
+
+.travel-logo-title {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.travel-img {
+  max-width: 250px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+.card-list {
+  padding: 20px;
+ 
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.card-column {
+  padding: 10px;
+}
+
+.travel-icon {
+  color: #c81e1e;
+}
+
+.travel-country {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 18px;
+  color: red;
+  font-weight: medium;
+  text-transform: uppercase;
+}
+
+.travel-maps {
+  font-size: 15px;
+  text-decoration: none;
+  color:blueviolet;
+}
+
+.travel-maps:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.card-description {
+  padding: 30px;
+  width: 550px;
+}
+
+.travel-description{
+  font-family: 'Lato', sans-serif;
+}
+
+.travel-inform {
+  text-align: justify;
+}
